@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ماشین حساب</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<style>
+    body{
+        background-color: rgb(0, 213, 255);
+    }
+    input {
+        margin: 2mm;
+        color: rgb(241, 232, 232);
+        background-color: black;
+    }
+</style>
+
+<body>
+    <form name="n1">
+        <input type="text" name="hojjat"><br>
+
+        <input type="button" value="1" onclick="n1.hojjat.value+='1'">
+        <input type="button" value="2" onclick="n1.hojjat.value+='2'">
+        <input type="button" value="3" onclick="n1.hojjat.value+='3'">
+        <input type="button" value="+" onclick="n1.hojjat.value+='+'">
+
+        <br>
+
+        <input type="button" value="4" onclick="n1.hojjat.value+='4'">
+        <input type="button" value="5" onclick="n1.hojjat.value+='5'">
+        <input type="button" value="6" onclick="n1.hojjat.value+='6'">
+        <input type="button" value="-" onclick="n1.hojjat.value+='-'">
+
+        <br>
+
+        <input type="button" value="7" onclick="n1.hojjat.value+='7'">
+        <input type="button" value="8" onclick="n1.hojjat.value+='8'">
+        <input type="button" value="9" onclick="n1.hojjat.value+='9'">
+        <input type="button" value="*" onclick="n1.hojjat.value+='*'">
+
+        <br>
+
+        <input type="button" value="پاک" onclick="n1.hojjat.value+='پاک'">
+        <input type="button" value="0" onclick="n1.hojjat.value+='0'">
+        <input type="button" value="=" onclick="n1.hojjat.value =eval(n1.hojjat.value)">
+        <input type="button" value="/" onclick="n1.hojjat.value+='/'">
+
+        <br>
+
+
+
+    </form>
+</body>
+
+</html>
